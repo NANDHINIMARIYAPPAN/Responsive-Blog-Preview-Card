@@ -1,0 +1,53 @@
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --White: hsl(0, 0%, 100%);
+    --Fontsize: 16px;
+    --fontfamily: "Figtree", sans-serif;
+}
+
+
+.container-fluid {
+    height: 100vh;
+    background-color: var(--Yellow);
+    font-family: var(--fontfamily);
+}
+
+.card-img-top {
+    border-radius: 25px !important;
+}
+
+.btn {
+    background-color: var(--Yellow);
+}
+
+.btn:hover {
+    background-color: var(--Yellow);
+    cursor: pointer;
+}
+
+.btn:focus-visible {
+    background-color: var(--Yellow);
+    cursor: pointer;
+}
+
+.btn:first-child:active {
+    background-color: var(--Yellow);
+}
+
+.card {
+    box-shadow: rgb(17 17 17) 5px 5px, rgba(240, 46, 170, 0.05) 0px 0px;
+    color: var(--Black);
+    font-size: var(--Fontsize);
+    background-color: var(--White);
+}
+
+.card-title {
+    font-weight: 800;
+}
+
+.card-title:hover {
+    color: var(--Yellow);
+    cursor: pointer;
+}
